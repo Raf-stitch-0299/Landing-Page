@@ -1,0 +1,116 @@
+@import url(logo.png);
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #f8f6f6ae;
+}
+
+.logo{
+    width: 220px;
+    height: 220px;
+    border-radius: 120px;
+    background-image: url(logo.png);
+    margin: 40px;
+}
+
+.logo:hover{
+    background-image: url(logo2.png);
+    transition: 2s;
+}
+
+header{
+    height: 31vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 210);
+    box-shadow: #555;
+}
+
+h1{
+    text-transform: uppercase;
+margin: 90px;
+width: 200px;
+user-select: none;
+}
+
+h2{
+    margin: 20px;
+    flex-direction: column;
+    width: 350px;
+    text-align:end;
+    user-select: none;
+    
+}
+
+h2:hover{
+color: red;
+transition: color 1s;
+
+}
+
+
+.btn{
+    padding: 20px 80px;
+    width: 60px;
+    color: red;
+    border: 3px solid darkblue;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration:double;
+    user-select: none;
+    cursor: pointer;
+    position:absolute;
+    bottom: 27.5em;
+    left: 400px;
+    font-size: 20px;
+    
+
+}
+
+.btn:hover{
+    background: #08129e;
+        transition: background 1s;
+        
+}
+
+main h1{
+   left: 10px;
+    font-size: 40px;
+    position: relative;
+    bottom: 20px;
+    background-color: red;
+}
+
+main p{
+    position: absolute;
+    left: 100px;
+    font-size: 50px;
+    bottom: 450px;
+
+}
+
+.imagem{
+position: absolute;
+left: 20em;
+width: 20em;
+}
+
+.img img{
+    position: absolute;
+    left:71em;
+    width: 57em;
+    bottom: 2px;
+}
+
+
+footer{
+position: absolute;
+bottom: 1em;
+font-size: large;
+left: 20px;
+}
+
+
